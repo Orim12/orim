@@ -1,5 +1,6 @@
 package io.github.orim12.ori;
 
+import io.github.orim12.ori.block.ModBlocks;
 import io.github.orim12.ori.item.ModItems;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
@@ -15,5 +16,6 @@ public class Ori implements ModInitializer {
 	public void onInitialize(ModContainer mod) {
 		LOGGER.info("Initializing Ori");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
