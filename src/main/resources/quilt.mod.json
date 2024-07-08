@@ -17,7 +17,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"innit": "io.github.orim12.ori.Ori",
+			"init": "io.github.orim12.ori.Ori",
 			"Client": "io.github.orim12.ori.OriClient"
 		},
 		"depends": [
