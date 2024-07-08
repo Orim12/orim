@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.orim12",
+		"id": "ori",
+		"version": "${version}",
+		"metadata": {
+			"name": "test mod",
+			"description": "just to test myself",
+			"contributors": {
+				"Orim12": "Owner"
+			},
+			"contact": {
+
+			},
+			"icon": "assets/ori/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"innit": "io.github.orim12.ori.Ori",
+			"Client": "io.github.orim12.ori.OriClient"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": "1.19.2"
+			}
+
+		],
+		"mixins": ["ori.mixins.json"]
+	}
+}
