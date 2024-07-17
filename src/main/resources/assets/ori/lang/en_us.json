@@ -1,12 +1,13 @@
 {
   "item.ori.raw_tanzanite": "Raw Tanzanite",
   "item.ori.tanzanite": "Tanzanite",
+  "item.ori.eight_ball": "Eight Ball",
 
   "block.ori.tanzanite_block": "Tanzanite Block",
   "block.ori.tanzanite_ore": "Tanzanite Ore",
   "block.ori.netherrack_tanzanite_ore": "Netherrack Tanzanite Ore",
   "block.ori.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
-  "block.ori.endstone_tanzanite_ore": "Endestone Tanzanite Ore",
+  "block.ori.endstone_tanzanite_ore": "Endstone Tanzanite Ore",
 
 
   "itemGroup.ori.ori": "ori"

@@ -1,6 +1,7 @@
 package io.github.orim12.ori.item;
 
 import io.github.orim12.ori.Ori;
+import io.github.orim12.ori.item.custom.EightBallItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -13,6 +14,8 @@ public class ModItems {
 		new Item(new QuiltItemSettings().group(ModItemGroup.ORI)));
 	public static final Item TANZANITE = registerItem("tanzanite",
 		new Item(new QuiltItemSettings().group(ModItemGroup.ORI)));
+	public static final Item EIGHTBALL = registerItem("eight_ball",
+		new EightBallItem(new QuiltItemSettings().group(ModItemGroup.ORI).maxCount(1)));
 
 	//register items
 	private static Item registerItem(String name, Item item) {
