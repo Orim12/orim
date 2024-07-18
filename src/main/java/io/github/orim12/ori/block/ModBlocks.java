@@ -1,6 +1,8 @@
 package io.github.orim12.ori.block;
 
 import io.github.orim12.ori.Ori;
+import io.github.orim12.ori.block.custom.JumpyBlock;
+import io.github.orim12.ori.block.custom.TanzaniteLampBlock;
 import io.github.orim12.ori.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -34,6 +36,12 @@ public class ModBlocks {
 	public static final Block NETHERRACK_TANZANITE_ORE = registerBlock("netherrack_tanzanite_ore",
 		new OreBlock(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
 			UniformIntProvider.create(3, 7)), ModItemGroup.ORI
+		);
+	public static final Block JUMPY_BLOCK = registerBlock("jumpy_block",
+		new JumpyBlock(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ORI
+		);
+	public static final Block TANZANITE_LAMP_BLOCK = registerBlock("tanzanite_lamp_block",
+		new TanzaniteLampBlock(QuiltBlockSettings.of(Material.REDSTONE_LAMP).strength(4f).requiresTool().luminance(state -> state.get(TanzaniteLampBlock.LIT) ? 16 : 0)), ModItemGroup.ORI
 		);
 
 	private static Block registerBlock(String name, Block block, ItemGroup tab) {

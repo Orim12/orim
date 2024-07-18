@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "ori:tanzanite_lamp_on"
+    },
+    "lit=false": {
+      "model": "ori:tanzanite_lamp_off"
+    }
+  }
+}
