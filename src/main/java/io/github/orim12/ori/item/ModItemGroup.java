@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import org.quiltmc.qsl.item.group.api.QuiltItemGroup;
 
 public class ModItemGroup {
 	public static final ItemGroup ORI = FabricItemGroupBuilder.build(
