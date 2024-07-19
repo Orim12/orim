@@ -40,7 +40,7 @@ public class ModBlocks {
 	public static final Block JUMPY_BLOCK = registerBlock("jumpy_block",
 		new JumpyBlock(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ORI
 		);
-	public static final Block TANZANITE_LAMP_BLOCK = registerBlock("tanzanite_lamp_block",
+	public static final Block TANZANITE_LAMP = registerBlock("tanzanite_lamp",
 		new TanzaniteLampBlock(QuiltBlockSettings.of(Material.REDSTONE_LAMP).strength(4f).requiresTool().luminance(state -> state.get(TanzaniteLampBlock.LIT) ? 16 : 0)), ModItemGroup.ORI
 		);
 
