@@ -19,7 +19,7 @@ public class TanzaniteLampBlock extends Block {
 	public TanzaniteLampBlock(Settings settings) {
 		super(settings);
 	}
-//todo fix texture of block placed
+
 	@Override
 	public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
 		if (!world.isClient && hand == Hand.MAIN_HAND) {
