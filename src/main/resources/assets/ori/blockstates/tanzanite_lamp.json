@@ -1,6 +1,12 @@
 {
+  "be sure to make sure that the word block is in the file": {},
   "variants": {
-    "lit=true": {"model": "ori:block/tanzanite_lamp_on"},
-    "lit=false": {"model": "ori:block/tanzanite_lamp_off"}
+
+    "lit=false": {
+      "model": "ori:block/tanzanite_lamp_off"
+    },
+    "lit=true": {
+      "model": "ori:block/tanzanite_lamp_on"
+    }
   }
 }
