@@ -11,14 +11,12 @@
 				"Orim12": "Owner"
 			},
 			"contact": {
-
 			},
 			"icon": "assets/orim/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"main": "io.github.orim12.orim.Orim",
-			"Client": "io.github.orim12.orim.OrimClient"
+			"init": "io.github.orim12.orim.Orim"
 		},
 		"depends": [
 			{
@@ -33,8 +31,9 @@
 				"id": "minecraft",
 				"versions": "1.19.2"
 			}
-
 		],
-		"mixins": ["orim.mixins.json"]
+		"mixins": [
+			"orim.mixins.json"
+		]
 	}
 }
