@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "orim:block/eggplant_stage0"
+    },
+    "age=1": {
+      "model": "orim:block/eggplant_stage1"
+    },
+    "age=2": {
+      "model": "orim:block/eggplant_stage2"
+    },
+    "age=3": {
+      "model": "orim:block/eggplant_stage3"
+    },
+    "age=4": {
+      "model": "orim:block/eggplant_stage4"
+    },
+    "age=5": {
+      "model": "orim:block/eggplant_stage5"
+    },
+    "age=6": {
+      "model": "orim:block/eggplant_stage6"
+    }
+  }
+}

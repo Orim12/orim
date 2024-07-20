@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "orim",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orim:tanzanite"
+    },
+    "@": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "orim:jumpy_block"
+  }
+}

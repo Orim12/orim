@@ -2,7 +2,7 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "io.github.orim12",
-		"id": "ori",
+		"id": "orim",
 		"version": "${version}",
 		"metadata": {
 			"name": "test mod",
@@ -13,12 +13,12 @@
 			"contact": {
 
 			},
-			"icon": "assets/ori/icon.png"
+			"icon": "assets/orim/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.orim12.ori.Ori",
-			"Client": "io.github.orim12.ori.OriClient"
+			"main": "io.github.orim12.orim.Orim",
+			"Client": "io.github.orim12.orim.OrimClient"
 		},
 		"depends": [
 			{
@@ -35,6 +35,6 @@
 			}
 
 		],
-		"mixins": ["ori.mixins.json"]
+		"mixins": ["orim.mixins.json"]
 	}
 }

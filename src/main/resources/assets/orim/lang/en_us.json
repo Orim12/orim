@@ -1,0 +1,19 @@
+{
+  "item.orim.raw_tanzanite": "Raw Tanzanite",
+  "item.orim.tanzanite": "Tanzanite",
+  "item.orim.eight_ball": "Eight Ball",
+  "item.orim.eggplant": "Eggplant",
+  "item.orim.eggplant_seeds": "Eggplant Seeds",
+
+  "block.orim.tanzanite_block": "Tanzanite Block",
+  "block.orim.tanzanite_ore": "Tanzanite Ore",
+  "block.orim.netherrack_tanzanite_ore": "Netherrack Tanzanite Ore",
+  "block.orim.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
+  "block.orim.endstone_tanzanite_ore": "Endstone Tanzanite Ore",
+  "block.orim.jumpy_block": "Jumpy Block",
+  "block.orim.tanzanite_lamp": "Tanzanite Lamp",
+  "block.orim.eggplant_crop": "Eggplant Crop",
+
+
+  "itemGroup.orim.orim": "orim"
+}

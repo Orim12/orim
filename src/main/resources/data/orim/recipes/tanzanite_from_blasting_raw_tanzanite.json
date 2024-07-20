@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "orim",
+  "ingredient": {
+    "item": "orim:raw_tanzanite"
+  },
+  "result": "orim:tanzanite"
+}

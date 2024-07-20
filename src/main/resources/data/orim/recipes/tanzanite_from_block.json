@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orim:tanzanite_block"
+    }
+  ],
+  "result": {
+    "item": "orim:tanzanite",
+    "count": 9
+  }
+}
